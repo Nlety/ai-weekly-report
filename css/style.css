@@ -1,0 +1,17 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.template-btn.active {
+    background: linear-gradient(to right, rgb(16, 185, 129), rgb(13, 148, 136));
+    color: white;
+    box-shadow: 0 4px 14px rgba(16, 185, 129, 0.3);
+}
+
+#settings-modal.show {
+    display: flex;
+}
+
+#history-panel.open {
+    transform: translateX(0);
+}
