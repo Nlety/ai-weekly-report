@@ -1,15 +1,7 @@
 {
     "name": "ai-weekly-report",
-    "routes": [
-        {
-            "path": "/api/report-storage",
-            "function": "report-storage"
-        }
-    ],
-    "functions": [
-        {
-            "name": "report-storage",
-            "entry": "edge-functions/report-storage.js"
-        }
-    ]
+    "entry": "./edge-functions/report-storage.js",
+    "assets": {
+        "directory": "./"
+    }
 }
